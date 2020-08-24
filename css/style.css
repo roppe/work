@@ -682,12 +682,12 @@
 
 
     .layout-info  p{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-    color:#3b4964;
-    font-size: 15px;
-    text-align: left;
-    line-height: 22px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        color: #3b4964;
+        font-size: 18px;
+        text-align: left;
+        line-height: 27px;
     }
 
     .layout-info  .link{
@@ -751,9 +751,9 @@
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color:#3b4964;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
-    line-height: 22px;
+    line-height: 27px;
     }
 
     .sell-info  .link{
@@ -1068,7 +1068,7 @@
 
 
     .nyc-benfits .inside-benefits p{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 8px;
@@ -1239,7 +1239,7 @@
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     color:#05233b;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     margin-top:0;
     margin-bottom: 5px;
@@ -1305,7 +1305,7 @@
       font-family: 'Mulish', sans-serif;
     font-weight: 500;
     color:#292929;
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
     }
 
@@ -3214,7 +3214,7 @@
     background: #fff url(../img/quote.png) no-repeat top;
     margin-bottom: 15px;
     margin-top: 25px;
-    height: 255px;
+    height: 320px;
     box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
 
     }
@@ -3309,6 +3309,13 @@
      
     }
 
+    .blog p{
+        text-align: center;
+        color: #05233b;
+         font-family: 'Mulish', sans-serif;
+         font-size: 17px; 
+    }
+
     .blog  {
         border-top: 1px solid #eee;
         padding-top: 45px;
@@ -3379,7 +3386,7 @@
          font-family: 'Mulish', sans-serif;
         font-weight: 500;
          color: #151515;
-        font-size: 14px;
+        font-size: 15px;
         text-align: left;
         }
 
@@ -3458,7 +3465,7 @@
         }
 
         .sell-why .sell-ben p{
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 500;
         margin-top: 5px;
         margin-bottom: 8px;
@@ -3509,9 +3516,9 @@
         }
 
         .quote-sell li .in-d{
-            font-size: 13px;
+            font-size: 15px;
             font-weight: 600;
-            
+            margin-top: 15px;
             text-align: left;
             color: #05233b;
             font-family: 'Mulish', sans-serif 
@@ -4334,7 +4341,7 @@
         font-family: 'Mulish', sans-serif;
         font-weight: 600;
         color: #292929;
-        font-size: 12px;
+        font-size: 13px;
         text-align: left;
         padding-left: 20px;
         padding-right: 20px;
@@ -4641,8 +4648,8 @@
         #contact-top h3 {
         font-weight: 500;
         color: #05233b;
-        font-size:22px;
-        text-align: center;
+        font-size:15px;
+        text-align: left;
         margin-top: 5px;
         margin-bottom: 30px;
         padding-bottom: 0;
