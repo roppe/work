@@ -4814,10 +4814,6 @@
     @media (max-width: 1190px) {
     
 
-        .main-navigation {
-            background-color: #333 !important;
-        }
-
         .sell-tabs .nav-item .nav-link img{
             height: 90px;
             width: 90px;
@@ -5076,10 +5072,7 @@
 
     @media (max-width: 991px) {
         
-        .main-navigation{
-            background-color: #f23430 !important;
-        }
-        
+       
 
         .banner-cover-top .text-headline h2{
             font-size: 35px;
@@ -5726,9 +5719,7 @@
 
     @media (max-width: 767.98px) {
        
-        .main-navigation{
-            background-color: #57bfe9 !important;
-        }
+        
 
         .tabs-choose .tab-link .nav-link img {
             width: 40px;
@@ -6210,6 +6201,10 @@
             display: block;
             margin-left: auto;
             margin-right:auto;
+            font-weight: 600;
+            font-size: 15px;
+            position: relative;
+            margin-bottom: 10px;
         }
 
         .nav-list .dropdown .link-drop{
@@ -6219,32 +6214,38 @@
             margin-right:auto;
             text-align: left;
             margin-top:5px;
+            position: relative;
+            float:left;
+            font-size: 15px;
+            margin-bottom: 10px;
         }
 
         .nav-list .dropdown .dropdown-toggle-in .fa {
-            font-size: 30px;
+            font-size: 34px;
             color: #151515;
             margin-top: -7px;
-            float: revert;
+            
             margin-left: 25px;
             vertical-align: 12px;
+          
         }
 
         .nav-list .dropdown-menu{
             width: 97%;
+            float: left;
         }
 
         .nav-list .nav-link{
             text-align: left;
+            font-size: 15px;
+            font-weight: 600;
         }
         
         .banner-cover-top .text-headline h2 {
             font-size: 25px;
         }
        
-        .main-navigation{
-            background-color: #f8791b !important;
-        }
+      
 
         .inner-top-cover .top-inner-img {
            display:none;
