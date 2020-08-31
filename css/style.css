@@ -1654,7 +1654,7 @@
 
 
 	  footer{
-        background: #1b242b;
+        background: #12171b;
     padding-top: 30px;
     padding-bottom: 0;
    
@@ -1759,7 +1759,7 @@
 
      .call-footer a span{
     font-family: 'Mulish', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 30px;
@@ -1794,6 +1794,12 @@
     margin-top: 3px;
     letter-spacing: 1px;
     margin-bottom: 3px;
+    }
+
+    .sub-footer .copy  a{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        color: #fafafa !important;  
     }
 
 
@@ -4711,17 +4717,17 @@
     
         #contact-top .contact-us-form  .send-message{
             font-family: 'Mulish', sans-serif;
-        font-weight:600;
+        font-weight:700;
         color: #ffffff;
-        font-size: 20px;
+        font-size: 23px;
         letter-spacing: 2px;
         text-transform: uppercase;
         border-radius: 3px;
         background-color:#84bc53;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 13px;
+        padding-bottom: 13px;
         margin-right: 10px;
         margin-top: 5px;
         margin-left: auto;
@@ -4795,6 +4801,60 @@
         border: 2px solid #fff;
         padding: 20px;
      }
+
+
+     
+    .thank-you{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        margin-top: 130px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+        background-color: #fafafa;
+    }
+
+    .thank-you h2{
+        font-family: "Roboto";
+        font-weight: 300;
+        /* color: #f88936 !important; */
+        color: #05233b;
+        font-size: 38px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .thank-you h4{
+        font-family: "Roboto";
+        font-weight: 300;
+        /* color: #f88936 !important; */
+        color: #05233b;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .thank-you img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .thank-you a{
+        margin-top: 50px;
+        font-family: "Roboto";
+        font-weight: 400;
+        text-decoration: none;
+        color: #039be5;
+
+    }
+
+    .thank-you a .fa{
+        margin-left: 10px;
+    }
 
   
      
@@ -6726,6 +6786,36 @@
 
         .banner-cover-top .text-headline h6 {
         font-size: 12px;
+        }
+
+
+
+        .right-contact-image h5 {
+            position: absolute;
+            top: 23%;
+            left: 49px;
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            color: #fff;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: 'Mulish', sans-serif;
+            border: 2px solid #fff;
+            padding: 20px;
+        }
+
+        #contact-top .contact-us-form {
+            border-radius: 5px;
+            padding-left: 5wpx;
+            padding-right: 5px;
+            padding-bottom: 30px;
+            padding-top: 15px;
+            width: 100%;
+            background-color: #fafafa;
+            box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
+          
+            position: relative;
         }
 
 
