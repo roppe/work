@@ -24,7 +24,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- CSS Main WEBSITE Custom Style -->
-    <link href="css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	
+<!-- Google recapthca contact form -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
   </head>
 
@@ -470,17 +474,17 @@
 	
 
 
-	  <section id="contact-section">
+	<section id="contact-section">
 		<div class="container">
 		  <div class="row">
 
   
 				<div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 order-1 contact-informations">
 				  <ul class="contact-list-text">
-					<h2>Want to Sell Equipment?</h2>
-					<h3>Contact Us,Fill Form for Free Quote</h3>
-					<li><p><i class="fa fa-phone"></i>(646) 123-4567</p></li>
-					<li><p style="font-size: 14px;"><i class="fa fa-envelope-o"></i>info@Nycrestaurantequipmentandappliances.com</p></li>
+					<h2>Get A Free Quote</h2>
+					<h3>Please Fill The Form for the Free Quote</h3>
+					<li><p><i class="fa fa-phone"></i>212-547-9055</p></li>
+					<li><p style="font-size: 14px;"><i class="fa fa-envelope-o"></i>info@NYCRestaurantEquipmentandAppliances.com</p></li>
 					<li><a href="#" target="blank"><p><i class="fa fa-map-marker"></i>New York City</p></a></li>
 				
 				  </ul>
@@ -488,29 +492,33 @@
 
 				<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12 order-2">
 					<div class="form-area contact-us-form">
-					  <form role="form" action="contact-submit-handler.php" id="cform" method="post" novalidate="novalidate">
-						  <br style="clear:both">
-						  <div class="form-group">
+						
+						<form id="email-form" role="form" name="email-form" method="post" action="contact.php"  method="post" novalidate="novalidate">
+						<br style="clear:both">
+						<div class="form-group">
 	
-							<input type="text" class="form-control contact-form-control" id="contact-us-name" name="name" placeholder="Name and Surname" required="">
-						  </div>
-						  <div class="form-group">
-							<input type="text" class="form-control contact-form-control" id="contact-us-email" name="email" placeholder="E-mail Address" required="">
-						  </div>
-						  <div class="form-group">
+							<input type="text" class="form-control contact-form-control" name="Name"  placeholder="Your Full Name" id="Name" required="">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control contact-form-control" placeholder="Email Address" id="Email" required="">
+						</div>
+						<div class="form-group">
 							
-							  <input type="text" class="form-control contact-form-control" id="contact-phone" name="phone" placeholder="Phone Number" required="">
-						  </div>
-										  
-						  <div class="form-group">
+							<input type="text" class="form-control contact-form-control" id="Phone" name="Phone" placeholder="Your Phone Number" required="">
+						</div>
+						
+										
+						<div class="form-group">
 			
-							<textarea class="form-control contact-form-control" type="textarea" name="text-message-contact" id="text-message-contact" placeholder="Type Your Messages..." maxlength="500" rows="7"></textarea>
+							<textarea class="form-control contact-form-control" type="textarea" id="Message" name="Message"  placeholder="Type Your Message Here..." maxlength="500" rows="7" style="margin-top: 0px; margin-bottom: 0px; height: 80px;"></textarea>
 							</div>
+
+							<div class="g-recaptcha" data-sitekey="6LdDTMYZAAAAAD-kxZW9EVvxFv7yi3uU7ifWHInb"></div>
 							
-							<input type="submit" id="send-now-contact-us" name="send-now-contact-us" class="btn send-message" value="Submit Now">
+							<input type="submit" value="Submit Now" data-wait="Please wait..." class="btn send-message">
 						</form>
-					  </div><!-- /col form section all -->    
-					</div>
+				 	 </div><!-- /col form section all --> 
+				</div>
   
 		  </div>
 		</div>
@@ -534,31 +542,35 @@
 	
 			<!-- Modal body -->
 			<div class="modal-body">
-				
-					<div class="form-area contact-us-form">
-					  <form role="form" action="contact-submit-handler.php" id="cform" method="post" novalidate="novalidate">
-						  <br style="clear:both">
-						  <div class="form-group">
-	
-							<input type="text" class="form-control contact-form-control" id="contact-us-name" name="name" placeholder="Name and Surname" required="">
-						  </div>
-						  <div class="form-group">
-							<input type="text" class="form-control contact-form-control" id="contact-us-email" name="email" placeholder="E-mail Address" required="">
-						  </div>
-						  <div class="form-group">
-							
-							  <input type="text" class="form-control contact-form-control" id="contact-phone" name="phone" placeholder="Phone Number" required="">
-						  </div>
-										  
-						  <div class="form-group">
-			
-							<textarea class="form-control contact-form-control" type="textarea" name="text-message-contact" id="text-message-contact" placeholder="Type Your Messages..." maxlength="500" rows="7"></textarea>
-							</div>
-							
-							<input type="submit" id="send-now-contact-us" name="send-now-contact-us" class="btn send-message" value="SEND NOW">
-						</form>
-					  </div><!-- /col form section all -->    
+				<div class="form-area contact-us-form">
+						
+					<form id="email-form" role="form" name="email-form" method="post" action="contact.php"  method="post" novalidate="novalidate">
+					<br style="clear:both">
+					<div class="form-group">
+
+						<input type="text" class="form-control contact-form-control" name="Name"  placeholder="Your Full Name" id="Name" required="">
 					</div>
+					<div class="form-group">
+						<input type="email" class="form-control contact-form-control" placeholder="Email Address" id="Email" required="">
+					</div>
+					<div class="form-group">
+						
+						<input type="text" class="form-control contact-form-control" id="Phone" name="Phone" placeholder="Your Phone Number" required="">
+					</div>
+					
+									
+					<div class="form-group">
+		
+						<textarea class="form-control contact-form-control" type="textarea" id="Message" name="Message"  placeholder="Type Your Message Here..." maxlength="500" rows="7" style="margin-top: 0px; margin-bottom: 0px; height: 80px;"></textarea>
+						</div>
+
+						<div class="g-recaptcha" data-sitekey="6LdDTMYZAAAAAD-kxZW9EVvxFv7yi3uU7ifWHInb"></div>
+						
+						<input type="submit" value="Submit Now" data-wait="Please wait..." class="btn send-message">
+					</form>
+			 	 </div><!-- /col form section all --> 	
+					
+					
 			</div>
 	
 			<!-- Modal footer -->

@@ -1,6 +1,6 @@
 <?php
 require_once "recaptchalib.php";
-$secret = "# recaptcha secret code goes here";
+$secret = "# 6LdDTMYZAAAAANutA_62y6q_J8lHXlquFEdfzi68";
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
 if ($_POST["g-recaptcha-response"]) {
@@ -15,7 +15,7 @@ if ($_POST["g-recaptcha-response"]) {
 if ($response != null && $response->success) {
 
 $EmailFrom = "feedback";
-$EmailTo = "info@globalgreenpestcontrol.com";
+$EmailTo = "#Email adresss goes here";
 $Subject = "Lead From http://globalgreenpestcontrol.com/";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
