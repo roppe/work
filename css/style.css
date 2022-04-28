@@ -2356,9 +2356,7 @@
 
     @media (max-width: 1200px) {
 		
-        .main-navigation{
-            background-color: #069455;
-        }
+      
 
         .contact-form .form-title {
             font-size: 14px;
@@ -2540,9 +2538,6 @@
 
     @media (max-width: 991px) {
 
-        .main-navigation{
-            background-color: #0b08b3;
-        }
 
 
 
@@ -2661,10 +2656,7 @@
     @media (max-width: 767.98px) {
 
         
-        .main-navigation{
-            background-color: #e6722f;
-        }
-
+    
 
         .contact-form{
             margin-left: 10px;
@@ -2751,9 +2743,7 @@
 	
 	@media (max-width: 575.98px) { 
     
-        .main-navigation{
-            background-color: #646362;
-        }
+     
 
 	
 		
@@ -2838,7 +2828,7 @@
 		}
 
 		.contact-informations h2 span {
-			font-size: 20px;
+			font-size: 19px;
 			color: #fff;
 			margin-top: 70px;
 		}
@@ -2991,6 +2981,7 @@
 
         .blue-banner{
             padding-left: 10px;padding-right: 10px;
+            padding-top: 50px;padding-bottom: 30px;
         }
 
         .blue-banner .btn-get-money{
@@ -3018,7 +3009,7 @@
         }
 
         #faq-section-ta .text-faq-box h2 {
-            font-size: 21px;
+            font-size: 20px;
         }
 
         #faq-section-ta .webpro-faq {
